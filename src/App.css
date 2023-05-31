@@ -1,0 +1,35 @@
+.carousel-image-container {
+  position: relative;
+}
+
+.carousel-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-details {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+
+.carousel-thumbnails img.active {
+  filter: none;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel-controls button {
+  margin: 0 5px;
+}
+
